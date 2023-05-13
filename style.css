@@ -126,9 +126,11 @@ div.container button.buy {
   font-size: 1.2em;
   transition: 0.2s;
 }
+
 div.container button.buy:hover {
   font-weight: 700;
 }
+
 div.container button.buy:hover {
   background: var(--button-hover);
 }
@@ -151,6 +153,7 @@ div.images-three {
   gap: 1rem;
   cursor: pointer;
 }
+
 div.images-three img:nth-child(2) {
   border-bottom: 5px solid var(--button);
 }
@@ -180,6 +183,7 @@ ul.nav-footer li a {
   font-size: 1.1em;
   transition: 0.2s;
 }
+
 ul.nav-footer li a:hover {
   color: var(--button);
 }
@@ -210,6 +214,7 @@ div.explore a:hover {
 }
 
 /* MEDIA QUERIES */
+
 @media screen and (max-width: 768px) {
   /* HEADER */
   div.search input {
@@ -327,16 +332,13 @@ div.explore a:hover {
   div.images-three {
     margin-top: 7rem;
   }
-  div.images-three img:nth-child(1) {
-    margin-left: 1rem;
-  }
+
   div.images-three img:nth-child(2),
   div.images-three img:nth-child(3) {
     visibility: hidden;
   }
 
   /* FOOTER */
-
   footer nav#nav-footer,
   nav#nav-footer ul.nav-footer {
     margin-top: -1rem;
@@ -368,10 +370,12 @@ div.explore a:hover {
   main div.container {
     margin: 5rem 2rem 0 14rem;
   }
+
   div.images-three img:nth-child(1) {
     margin-left: -1rem;
     max-width: 220px;
   }
+
   div.images-three img:nth-child(2),
   div.images-three img:nth-child(3) {
     visibility: visible;
@@ -390,5 +394,30 @@ div.explore a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  
+  /* HEADER */
+  div.search input {
+    width: 180px;
+  }
+
+  /* MAIN */
+  main div.container {
+    margin: 0rem 1rem 0 1rem;
+  }
+
+  div.container h1.sneaker {
+    margin-right: 11rem;
+  }
+
+  div.images-three img:nth-child(1) {
+    margin-left: 1rem;
+  }
+
+  /* FOOTER */
+  ul.nav-footer li {
+    padding: 3rem;
+  }
+
+  div.explore {
+    padding: 2rem 4.7rem;
+  }
 }

@@ -5,6 +5,7 @@
  ## ✔️ Techniques and technologies used
 
 - ``HTML5`` ``CSS3`` ``JavaScript``
+- Finished in Jan/2022 and updated in May/2023
 
 <br>
 
